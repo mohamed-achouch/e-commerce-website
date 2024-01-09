@@ -1,0 +1,99 @@
+.product__detail {
+  margin-top: 50px;
+}
+.product__detail h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.product__detail .price {
+  color: var(--primary-color);
+  font-size: 25px;
+  margin: 6px 0;
+  width: fit-content;
+  display: block;
+  font-weight: 700;
+}
+
+.product__rating span i {
+  color: coral;
+}
+.product__rating .rating {
+  color: coral;
+  display: flex;
+}
+.tap__wrapper h6 {
+  color: var(--primary-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.active__tap {
+  font-weight: 700;
+  color: rgb(27, 27, 62);
+  transition: none;
+}
+.tap__content p {
+  line-height: 30px;
+}
+
+.review__wrapper ul li span {
+  color: coral;
+  font-weight: 600;
+}
+.review__wrapper ul li p {
+  margin-top: 10px;
+}
+
+.review__form {
+  width: 70%;
+  margin: auto;
+}
+.form__group {
+  margin-top: 20px;
+}
+.form__group span  {
+  color: coral;
+  cursor: pointer;
+}
+.review__form input,
+.review__form textarea {
+  width: 85%;
+  padding: 3px 23px;
+  outline: navy;
+  margin-top: 19px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+}
+.related__product {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+
+@media (max-width: 768px) {
+  .common__section h1 {
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .product__detail h2 {
+    font-size: 1.4rem;
+  }
+  .review__form h2{
+    font-size: 23px;
+  }
+  .related__product{
+    font-size: 23px;
+  }
+  .product__detail .price{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+}

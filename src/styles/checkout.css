@@ -1,0 +1,9 @@
+ 
+.form__group input {
+    padding: 3px 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    text-transform: none;
+}

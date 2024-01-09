@@ -1,0 +1,44 @@
+table tbody img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+td i{
+    cursor: pointer;
+    background: red;
+    color: #fff;
+   padding: 6px 20px ;
+   border-radius: 4px;
+}
+.vide-product{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 39px;
+    margin: 30px 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.total__amount h6{
+    font-size: 22px;
+    color: var(--bs-gray-700);
+}
+.total__amount span{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px auto;
+    width: fit-content;
+    display: block;
+}
+.decrement ,.increment {
+    cursor: pointer;
+    background: green;
+    display: flex;
+    width: 25px;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}

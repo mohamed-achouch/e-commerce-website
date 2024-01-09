@@ -1,0 +1,46 @@
+
+.hero__section{
+    background: var(--hero-bg);
+}
+.hero__content h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.hero__content p{
+    color: var(--primary-color);
+    line-height: 28px;
+}
+.hero__content p:nth-child(1){
+    font-weight: 500;
+}
+
+.by__btn a:hover{
+    color: #fff;
+}
+.hero__content{
+    padding-top: 45px;
+}
+
+.timer__counter{
+  background:var(--primary-color);    
+  height: 300px;
+}
+.timer__counter img{
+ width: 70% !important;
+ height: 70% !important;
+}
+.store__btn{
+    background: #fff;
+    color: var(--primary-color);
+  }
+  .store__btn a:hover{
+    color: var(--primary-color);
+  }
+
+  @media only screen and (max-width:960px) {
+    .hero__content h2 {
+        font-size: 1.5rem ;
+    }
+  }
